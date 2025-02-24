@@ -9,4 +9,4 @@ Although **Plotst** itself can't be used directly in Quarto, you can still gener
    ```typst
    import "@preview/plotst:0.2.0": *
 
-   scatter_plot([1, 2, 3], [4, 5, 6])
+   scatter_plot([1, 2, 3], [4, 5, 6])'''
