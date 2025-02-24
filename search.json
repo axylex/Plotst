@@ -32,6 +32,6 @@
     "href": "test.html",
     "title": "Quarto Template",
     "section": "",
-    "text": "3. Including Typst-Generated Visuals (using Plotst in Typst) in Quarto\nAlthough Plotst itself can’t be used directly in Quarto, you can still generate plots or images using Typst and Plotst and then include those in your Quarto document. Here’s how:\n\nSteps:\n\nGenerate plots in Typst: Create a Typst document that includes plots using Plotst.\nExample Typst code: ```typst import “@preview/plotst:0.2.0”: *\nscatter_plot([1, 2, 3], [4, 5, 6])"
+    "text": "3. Including Typst-Generated Visuals (using Plotst in Typst) in Quarto\nAlthough Plotst itself can’t be used directly in Quarto, you can still generate plots or images using Typst and Plotst and then include those in your Quarto document. Here’s how:\n\nSteps:\n\nGenerate plots in Typst: Create a Typst document that includes plots using Plotst.\nExample Typst code: ```typst import “@preview/plotst:0.2.0”: *\nscatter_plot([1, 2, 3], [4, 5, 6])’’’"
   }
 ]
