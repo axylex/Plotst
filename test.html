@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quarto Template</title>
+<title>test – Quarto Template</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./test.html"> 
+    <a class="nav-link active" href="./test.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -108,30 +108,25 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Quarto Template</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Quarto template Text!</p>
+<section id="including-typst-generated-visuals-using-plotst-in-typst-in-quarto" class="level4">
+<h4 class="anchored" data-anchor-id="including-typst-generated-visuals-using-plotst-in-typst-in-quarto">3. <strong>Including Typst-Generated Visuals (using Plotst in Typst) in Quarto</strong></h4>
+<p>Although <strong>Plotst</strong> itself can’t be used directly in Quarto, you can still generate plots or images using <strong>Typst</strong> and <strong>Plotst</strong> and then include those in your Quarto document. Here’s how:</p>
+<section id="steps" class="level5">
+<h5 class="anchored" data-anchor-id="steps">Steps:</h5>
+<ol type="1">
+<li><p><strong>Generate plots in Typst</strong>: Create a <strong>Typst document</strong> that includes plots using <strong>Plotst</strong>.</p>
+<p>Example Typst code: ```typst import “<span class="citation" data-cites="preview/plotst:0.2.0">@preview/plotst:0.2.0</span>”: *</p>
+<p>scatter_plot([1, 2, 3], [4, 5, 6])</p></li>
+</ol>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
