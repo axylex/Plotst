@@ -59,13 +59,16 @@ The installed version can be imported by prefixing the package name with @local.
 
 ## Advantages
 
-- **Intuitive Drawing API:** CeTZ provides a user-friendly interface for crafting shapes, lines, and complex figures, making it accessible even to those new to vector graphics.
+#### Intuitive Drawing API
+CeTZ provides a user-friendly interface for crafting shapes, lines, and complex figures, making it accessible even to those new to vector graphics.
 
-- **Modular Libraries:** Beyond basic drawing capabilities, CeTZ includes specialized modules:
+#### Modular Libraries 
+Beyond basic drawing capabilities, CeTZ includes specialized modules:
 
--- **cetz-plot:** Enables the creation of plots and charts.
--- **cetz-venn:** Facilitates the drawing of simple two- or three-set Venn diagrams. 
-- **Integration with Other Packages:** CeTZ serves as a foundation for various Typst packages, such as:
+- **cetz-plot:** Enables the creation of plots and charts.
+- **cetz-venn:** Facilitates the drawing of simple two- or three-set Venn diagrams. 
+#### Integration with Other Packages
+CeTZ serves as a foundation for various Typst packages, such as:
 
 - **cirCeTZ:** A port of circuitikz for drawing electrical circuits.
 - **fletcher:** Creates commutative diagrams and figures with arrows.
@@ -74,10 +77,9 @@ The installed version can be imported by prefixing the package name with @local.
 ## Examples
 
 <!-- <img src="c:\Users\FARHAT\Downloads\WhatsApp Image 2025-02-26 at 12.11.50 AM.jpeg" alt="Description" width="500"> -->
-![Quarto Logo](photo1.jpeg)
-![Quarto Logo1](photo2.jpeg)
-![Quarto Logo2](photo3.jpeg)
-![Quarto Logo3](photo4.jpeg)
+![Photo 1](photo1.jpeg) ![Photo 2](photo2.jpeg)  
+![Photo 3](photo3.jpeg) ![Photo 4](photo4.jpeg)
+
 
 I can create lists easily:
 
