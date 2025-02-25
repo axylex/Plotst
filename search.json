@@ -46,14 +46,14 @@
     "href": "posts/welcome.html#advantages-1",
     "title": "Plotting with CtEZ",
     "section": "Advantages",
-    "text": "Advantages\n\nIntuitive Drawing API: CeTZ provides a user-friendly interface for crafting shapes, lines, and complex figures, making it accessible even to those new to vector graphics.\nModular Libraries: Beyond basic drawing capabilities, CeTZ includes specialized modules:\n\n– cetz-plot: Enables the creation of plots and charts. – cetz-venn: Facilitates the drawing of simple two- or three-set Venn diagrams. - Integration with Other Packages: CeTZ serves as a foundation for various Typst packages, such as:\n\ncirCeTZ: A port of circuitikz for drawing electrical circuits.\nfletcher: Creates commutative diagrams and figures with arrows.\nriesketcher: Draws Riemann sums for mathematical illustrations."
+    "text": "Advantages\n\nIntuitive Drawing API\nCeTZ provides a user-friendly interface for crafting shapes, lines, and complex figures, making it accessible even to those new to vector graphics.\n\n\nModular Libraries\nBeyond basic drawing capabilities, CeTZ includes specialized modules:\n\ncetz-plot: Enables the creation of plots and charts.\ncetz-venn: Facilitates the drawing of simple two- or three-set Venn diagrams. #### Integration with Other Packages CeTZ serves as a foundation for various Typst packages, such as:\ncirCeTZ: A port of circuitikz for drawing electrical circuits.\nfletcher: Creates commutative diagrams and figures with arrows.\nriesketcher: Draws Riemann sums for mathematical illustrations."
   },
   {
     "objectID": "posts/welcome.html#examples",
     "href": "posts/welcome.html#examples",
     "title": "Plotting with CtEZ",
     "section": "Examples",
-    "text": "Examples\n\n   \nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "Examples\n\n \n \nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   },
   {
     "objectID": "index.html",
