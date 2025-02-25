@@ -66,7 +66,8 @@ CeTZ provides a user-friendly interface for crafting shapes, lines, and complex 
 Beyond basic drawing capabilities, CeTZ includes specialized modules:
 
 - **cetz-plot:** Enables the creation of plots and charts.
-- **cetz-venn:** Facilitates the drawing of simple two- or three-set Venn diagrams. 
+- **cetz-venn:** Facilitates the drawing of simple two- or three-set Venn diagrams.
+
 #### Integration with Other Packages
 CeTZ serves as a foundation for various Typst packages, such as:
 
@@ -79,6 +80,7 @@ CeTZ serves as a foundation for various Typst packages, such as:
 <!-- <img src="c:\Users\FARHAT\Downloads\WhatsApp Image 2025-02-26 at 12.11.50 AM.jpeg" alt="Description" width="500"> -->
 ![Photo 1](photo1.jpeg) ![Photo 2](photo2.jpeg)  
 ![Photo 3](photo3.jpeg) ![Photo 4](photo4.jpeg)
+![Photo 1](photo1.jpeg){fig-align="left"}
 
 
 I can create lists easily:
