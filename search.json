@@ -74,7 +74,14 @@
     "href": "posts/welcome.html#usage-2",
     "title": "Plotting with CtEZ",
     "section": "Usage",
-    "text": "Usage\nplot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {\n plot.add(((0,0), (1,1), (2,.5), (4,3)))\n})"
+    "text": "Usage\nHere’s an example of how to create a simple plot using cetz-plot:\nplot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {\n plot.add(((0,0), (1,1), (2,.5), (4,3)))\n})"
+  },
+  {
+    "objectID": "posts/welcome.html#examples-1",
+    "href": "posts/welcome.html#examples-1",
+    "title": "Plotting with CtEZ",
+    "section": "Examples",
+    "text": "Examples"
   },
   {
     "objectID": "posts/welcome.html#advantages-2",
