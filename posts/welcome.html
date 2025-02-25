@@ -104,35 +104,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -229,6 +200,8 @@ window.Quarto = {
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creates PDF file at the desired path.</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">typst</span> compile path/to/source.typ path/to/output.pdf</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="advantages" class="level3">
+<h3 class="anchored" data-anchor-id="advantages">Advantages</h3>
 <ul>
 <li><strong>Simpler Syntax</strong>: Compared to LaTeX, Typst uses a more readable and concise syntax.<br>
 </li>
@@ -240,9 +213,30 @@ window.Quarto = {
 </li>
 <li><strong>Vector Graphics &amp; Diagrams</strong>: Allows integration of charts, graphs, and figures.</li>
 </ul>
-<p><span class="math display">\[
-y = x^2
-\]</span></p>
+</section>
+</section>
+</section>
+<section id="typst-cetz" class="level1">
+<h1>Typst CeTZ</h1>
+<p>CeTZ, short for “ein Typst Zeichenpaket,” is a drawing library for Typst inspired by LaTeX’s TikZ and the Processing programming language. It offers an intuitive API for creating vector graphics directly within Typst documents, facilitating the creation of diagrams, plots, and various visual elements.</p>
+<section id="how-to-install-1" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-install-1">How to install</h2>
+<p>To install the CeTZ package under your local typst package dir you can use the install script from the repository.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">just</span> install</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="usage-1" class="level2">
+<h2 class="anchored" data-anchor-id="usage-1">Usage</h2>
+<p>For information, see the <a href="https://cetz-package.github.io/docs">online manual</a>. The installed version can be imported by prefixing the package name with <span class="citation" data-cites="local">@local</span>.</p>
+<pre class="typst"><code>#import "@local/cetz:0.3.2"
+
+#cetz.canvas({
+  import cetz.draw: *
+  // Your drawing code goes here
+})</code></pre>
+</section>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<p><img src="c:\Users\FARHAT\Downloads\WhatsApp Image 2025-02-26 at 12.11.50 AM.jpeg" alt="Description" width="500"></p>
 <p>I can create lists easily:</p>
 <ul>
 <li>One</li>
