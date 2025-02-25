@@ -7,20 +7,6 @@
     "text": "Plotting with CeTZ\n\n\n\n\n\nSimple plotting library\n\n\n\n\n\nFeb 25, 2025\n\n\nMateen Sharief, Jahan Zaib and Omer Mohammed\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Team C018",
-    "section": "",
-    "text": "This website was created using Quarto and Github pages. Click on Blogs on the top right corner to read our blog."
-  },
-  {
-    "objectID": "index.html#welcome-to-our-website.-we-hope-you-enjoy-your-stay-here.",
-    "href": "index.html#welcome-to-our-website.-we-hope-you-enjoy-your-stay-here.",
-    "title": "Team C018",
-    "section": "",
-    "text": "This website was created using Quarto and Github pages. Click on Blogs on the top right corner to read our blog."
-  },
-  {
     "objectID": "posts/welcome.html",
     "href": "posts/welcome.html",
     "title": "Plotting with CeTZ",
@@ -103,5 +89,19 @@
     "title": "Plotting with CeTZ",
     "section": "Advantages",
     "text": "Advantages\n\nData Plotting: cetz-plot allows for the plotting of various data types, including mathematical functions and empirical datasets.\nCustomization: Users can tailor plots by adjusting axes, labels, legends, and styles to meet specific presentation needs.\nIntegration: Seamlessly integrates with Typst and other CeTZ modules, providing a cohesive experience for document preparation."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Team C018",
+    "section": "",
+    "text": "This website was created using Quarto and Github pages. Click on Blogs on the top right corner to read our blog."
+  },
+  {
+    "objectID": "index.html#welcome-to-our-website.-we-hope-you-enjoy-your-stay-here.",
+    "href": "index.html#welcome-to-our-website.-we-hope-you-enjoy-your-stay-here.",
+    "title": "Team C018",
+    "section": "",
+    "text": "This website was created using Quarto and Github pages. Click on Blogs on the top right corner to read our blog."
   }
 ]
