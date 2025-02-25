@@ -1,5 +1,5 @@
 ---
-title: Quarto Template
+title: Typst-CtEZ
 ---
 
 # Mateen
