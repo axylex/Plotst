@@ -94,12 +94,16 @@ To incorporate cetz-plot into your Typst project, import the package at the begi
 Ensure that the CeTZ package is also imported, as cetz-plot builds upon its functionalities.
 
 ## Usage
-
+Here's an example of how to create a simple plot using cetz-plot:
 ```t
 plot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {
  plot.add(((0,0), (1,1), (2,.5), (4,3)))
 })
 ```
+## Examples
+
+![Photo 5](photo5.jpeg){width=40%} ![Photo 6](photo6.jpeg){width=40%}  
+
 ## Advantages 
 
 - **Data Plotting:** cetz-plot allows for the plotting of various data types, including mathematical functions and empirical datasets.
