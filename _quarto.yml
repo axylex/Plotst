@@ -10,6 +10,8 @@ website:
         text: Home
       - href: blog.qmd
         text: Blog
+      - href: https://github.com/axylex/Plotst
+        text: Github
 
 
 format:

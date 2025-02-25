@@ -1,5 +1,5 @@
 ---
-title: "Plotting with CtEZ"
+title: "Plotting with CeTZ"
 description: "Simple plotting library"
 author: "Mateen Sharief, Jahan Zaib and Omer Mohammed"
 date: "2/25/2025"
@@ -112,3 +112,12 @@ plot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {
 
 - **Integration:** Seamlessly integrates with Typst and other CeTZ modules, providing a cohesive experience for document preparation.
 
+# References
+
+
+
+
+
+Official website for [Typst](https://typst.app/docs/)
+Official website for [CeTZ](https://typst.app/universe/package/cetz/)
+Official website for [CeTZ plot](https://github.com/cetz-package/cetz-plot)
