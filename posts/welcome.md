@@ -81,7 +81,7 @@ CeTZ serves as a foundation for various Typst packages, such as:
 ![Photo 3](photo3.jpeg){width=40%} ![Photo 4](photo4.jpeg){width=40%}
 
 # CeTZ Plot
-***cetz-plot*** is a specialized library within the CeTZ package designed to facilitate the creation of plots and charts in Typst documents. It extends CeTZ's drawing capabilities, enabling users to visualize data effectively.
+**cetz-plot** is a specialized library within the CeTZ package designed to facilitate the creation of plots and charts in Typst documents. It extends CeTZ's drawing capabilities, enabling users to visualize data effectively.
 I can create lists easily:
 
 ## How to install
@@ -102,7 +102,7 @@ plot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {
 ```
 ## Examples
 
-![Photo 5](photo5.jpeg){width=40%} ![Photo 6](photo6.jpeg){width=40%}  
+![Photo 5](photo5.jpeg){fig-align="right" width=40%}  ![Photo 6](photo6.jpeg){fig-align="right" width=40%}  
 
 ## Advantages 
 
@@ -118,6 +118,6 @@ plot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {
 
 
 
-Official website for [Typst](https://typst.app/docs/)
-Official website for [CeTZ](https://typst.app/universe/package/cetz/)
-Official website for [CeTZ plot](https://github.com/cetz-package/cetz-plot)
+Official website for [Typst](https://typst.app/docs/).
+Official website for [CeTZ](https://typst.app/universe/package/cetz/).
+Official website for [CeTZ plot](https://github.com/cetz-package/cetz-plot).
