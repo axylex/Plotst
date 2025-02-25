@@ -6,9 +6,9 @@ website:
   title: "Quarto Template"
   navbar:
     right:
-      - href: index.qmd
-        text: Home
       - href: blog.qmd
+        text: Home
+      - href: bindex.qmd
         text: Blog
 
 
