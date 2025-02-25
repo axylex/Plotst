@@ -26,7 +26,7 @@ typst compile file.typ
 # Creates PDF file at the desired path.
 typst compile path/to/source.typ path/to/output.pdf
 ```
-### Advantages
+## Advantages
 - **Simpler Syntax**: Compared to LaTeX, Typst uses a more readable and concise syntax.  
 - **Real-time Compilation**: Instant preview of changes without the need for complex build processes.  
 - **Customizable Templates**: Users can create their own layouts and formatting rules.  
@@ -48,7 +48,7 @@ just install
 ## Usage
 For information, see the [online manual](https://cetz-package.github.io/docs).
 The installed version can be imported by prefixing the package name with @local.
-```t
+```T
 #import "@local/cetz:0.3.2"
 
 #cetz.canvas({
@@ -77,27 +77,34 @@ CeTZ serves as a foundation for various Typst packages, such as:
 
 ## Examples
 
-<!-- <img src="c:\Users\FARHAT\Downloads\WhatsApp Image 2025-02-26 at 12.11.50 AM.jpeg" alt="Description" width="500"> -->
-![Photo 1](photo1.jpeg) ![Photo 2](photo2.jpeg)  
-![Photo 3](photo3.jpeg) ![Photo 4](photo4.jpeg)
-![Photo 1](photo1.jpeg){fig-align="left"}
+![Photo 1](photo1.jpeg){width=40%} ![Photo 2](photo2.jpeg){width=40%}  
+![Photo 3](photo3.jpeg){width=40%} ![Photo 4](photo4.jpeg){width=40%}
 
-
+# CeTZ Plot
+***cetz-plot*** is a specialized library within the CeTZ package designed to facilitate the creation of plots and charts in Typst documents. It extends CeTZ's drawing capabilities, enabling users to visualize data effectively.
 I can create lists easily:
 
-- One
-- Two
+## How to install
 
-I can also create numbered lists:
+To incorporate cetz-plot into your Typst project, import the package at the beginning of your .typ file:
 
-1. One
-2. Two
+```t
+#import "@preview/cetz-plot:0.1.1"
+```
+Ensure that the CeTZ package is also imported, as cetz-plot builds upon its functionalities.
 
+## Usage
 
-Or, create a table:
+```t
+plot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {
+ plot.add(((0,0), (1,1), (2,.5), (4,3)))
+})
+```
+## Advantages 
 
-| Name  | Age |
-|-------|-----|
-| Alice | 20  |
-| Bob   | 21  |
+- **Data Plotting:** cetz-plot allows for the plotting of various data types, including mathematical functions and empirical datasets.
+
+- **Customization:** Users can tailor plots by adjusting axes, labels, legends, and styles to meet specific presentation needs.
+
+- **Integration:** Seamlessly integrates with Typst and other CeTZ modules, providing a cohesive experience for document preparation.
 
