@@ -118,6 +118,8 @@ plot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {
 
 
 
-!Official website for [Typst](https://typst.app/docs/).
-!Official website for [CeTZ](https://typst.app/universe/package/cetz/).
-!Official website for [CeTZ plot](https://github.com/cetz-package/cetz-plot).
+Official website for [Typst](https://typst.app/docs/).
+
+Official website for [CeTZ](https://typst.app/universe/package/cetz/).
+
+Official website for [CeTZ plot](https://github.com/cetz-package/cetz-plot).
