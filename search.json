@@ -11,7 +11,7 @@
     "href": "posts/welcome.html",
     "title": "Plotting with CtEZ",
     "section": "",
-    "text": "Typst is a markup-based typesetting system designed to be an easier, faster, and more intuitive alternative to LaTeX. It combines simplicity, real-time compilation, and flexibility, making it ideal for academic papers, reports, presentations, and technical documents.\n\n\nLinux: View Typst on Repology\nmacOS: brew install typst\nWindows: winget install --id Typst.Typst\n\n\n\nOnce you have installed Typst, you can use it like this:\n# Creates `file.pdf` in working directory.\ntypst compile file.typ\n\n# Creates PDF file at the desired path.\ntypst compile path/to/source.typ path/to/output.pdf\n\n\n\nSimpler Syntax: Compared to LaTeX, Typst uses a more readable and concise syntax.\n\nReal-time Compilation: Instant preview of changes without the need for complex build processes.\n\nCustomizable Templates: Users can create their own layouts and formatting rules.\n\nMathematical Typesetting: Supports equations and mathematical symbols, similar to LaTeX.\n\nVector Graphics & Diagrams: Allows integration of charts, graphs, and figures."
+    "text": "Typst is a markup-based typesetting system designed to be an easier, faster, and more intuitive alternative to LaTeX. It combines simplicity, real-time compilation, and flexibility, making it ideal for academic papers, reports, presentations, and technical documents.\n\n\nLinux: View Typst on Repology\nmacOS: brew install typst\nWindows: winget install --id Typst.Typst\n\n\n\nOnce you have installed Typst, you can use it like this:\n# Creates `file.pdf` in working directory.\ntypst compile file.typ\n\n# Creates PDF file at the desired path.\ntypst compile path/to/source.typ path/to/output.pdf\n\n\n\n\nSimpler Syntax: Compared to LaTeX, Typst uses a more readable and concise syntax.\n\nReal-time Compilation: Instant preview of changes without the need for complex build processes.\n\nCustomizable Templates: Users can create their own layouts and formatting rules.\n\nMathematical Typesetting: Supports equations and mathematical symbols, similar to LaTeX.\n\nVector Graphics & Diagrams: Allows integration of charts, graphs, and figures."
   },
   {
     "objectID": "posts/welcome.html#how-to-install",
@@ -25,7 +25,14 @@
     "href": "posts/welcome.html#usage",
     "title": "Plotting with CtEZ",
     "section": "",
-    "text": "Once you have installed Typst, you can use it like this:\n# Creates `file.pdf` in working directory.\ntypst compile file.typ\n\n# Creates PDF file at the desired path.\ntypst compile path/to/source.typ path/to/output.pdf\n\n\n\nSimpler Syntax: Compared to LaTeX, Typst uses a more readable and concise syntax.\n\nReal-time Compilation: Instant preview of changes without the need for complex build processes.\n\nCustomizable Templates: Users can create their own layouts and formatting rules.\n\nMathematical Typesetting: Supports equations and mathematical symbols, similar to LaTeX.\n\nVector Graphics & Diagrams: Allows integration of charts, graphs, and figures."
+    "text": "Once you have installed Typst, you can use it like this:\n# Creates `file.pdf` in working directory.\ntypst compile file.typ\n\n# Creates PDF file at the desired path.\ntypst compile path/to/source.typ path/to/output.pdf"
+  },
+  {
+    "objectID": "posts/welcome.html#advantages",
+    "href": "posts/welcome.html#advantages",
+    "title": "Plotting with CtEZ",
+    "section": "",
+    "text": "Simpler Syntax: Compared to LaTeX, Typst uses a more readable and concise syntax.\n\nReal-time Compilation: Instant preview of changes without the need for complex build processes.\n\nCustomizable Templates: Users can create their own layouts and formatting rules.\n\nMathematical Typesetting: Supports equations and mathematical symbols, similar to LaTeX.\n\nVector Graphics & Diagrams: Allows integration of charts, graphs, and figures."
   },
   {
     "objectID": "posts/welcome.html#how-to-install-1",
@@ -53,7 +60,28 @@
     "href": "posts/welcome.html#examples",
     "title": "Plotting with CtEZ",
     "section": "Examples",
-    "text": "Examples\n\n \n  \nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "Examples"
+  },
+  {
+    "objectID": "posts/welcome.html#how-to-install-2",
+    "href": "posts/welcome.html#how-to-install-2",
+    "title": "Plotting with CtEZ",
+    "section": "How to install",
+    "text": "How to install\nTo incorporate cetz-plot into your Typst project, import the package at the beginning of your .typ file:\n#import \"@preview/cetz-plot:0.1.1\"\nEnsure that the CeTZ package is also imported, as cetz-plot builds upon its functionalities."
+  },
+  {
+    "objectID": "posts/welcome.html#usage-2",
+    "href": "posts/welcome.html#usage-2",
+    "title": "Plotting with CtEZ",
+    "section": "Usage",
+    "text": "Usage\nplot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {\n plot.add(((0,0), (1,1), (2,.5), (4,3)))\n})"
+  },
+  {
+    "objectID": "posts/welcome.html#advantages-2",
+    "href": "posts/welcome.html#advantages-2",
+    "title": "Plotting with CtEZ",
+    "section": "Advantages",
+    "text": "Advantages\n\nData Plotting: cetz-plot allows for the plotting of various data types, including mathematical functions and empirical datasets.\nCustomization: Users can tailor plots by adjusting axes, labels, legends, and styles to meet specific presentation needs.\nIntegration: Seamlessly integrates with Typst and other CeTZ modules, providing a cohesive experience for document preparation."
   },
   {
     "objectID": "index.html",

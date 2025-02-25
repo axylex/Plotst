@@ -200,8 +200,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creates PDF file at the desired path.</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">typst</span> compile path/to/source.typ path/to/output.pdf</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<section id="advantages" class="level3">
-<h3 class="anchored" data-anchor-id="advantages">Advantages</h3>
+</section>
+<section id="advantages" class="level2">
+<h2 class="anchored" data-anchor-id="advantages">Advantages</h2>
 <ul>
 <li><strong>Simpler Syntax</strong>: Compared to LaTeX, Typst uses a more readable and concise syntax.<br>
 </li>
@@ -213,7 +214,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
 <li><strong>Vector Graphics &amp; Diagrams</strong>: Allows integration of charts, graphs, and figures.</li>
 </ul>
-</section>
 </section>
 </section>
 <section id="typst-cetz" class="level1">
@@ -260,38 +260,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="examples" class="level2">
 <h2 class="anchored" data-anchor-id="examples">Examples</h2>
-<!-- <img src="c:\Users\FARHAT\Downloads\WhatsApp Image 2025-02-26 at 12.11.50 AM.jpeg" alt="Description" width="500"> -->
-<p><img src="photo1.jpeg" class="img-fluid" alt="Photo 1"> <img src="photo2.jpeg" class="img-fluid" alt="Photo 2"><br>
-<img src="photo3.jpeg" class="img-fluid" alt="Photo 3"> <img src="photo4.jpeg" class="img-fluid" alt="Photo 4"> <img src="photo1.jpeg" class="img-fluid quarto-figure quarto-figure-left" alt="Photo 1"></p>
-<p>I can create lists easily:</p>
+<p><img src="photo1.jpeg" class="img-fluid" style="width:40.0%" alt="Photo 1"> <img src="photo2.jpeg" class="img-fluid" style="width:40.0%" alt="Photo 2"><br>
+<img src="photo3.jpeg" class="img-fluid" style="width:40.0%" alt="Photo 3"> <img src="photo4.jpeg" class="img-fluid" style="width:40.0%" alt="Photo 4"></p>
+</section>
+</section>
+<section id="cetz-plot" class="level1">
+<h1>CeTZ Plot</h1>
+<p><strong><em>cetz-plot</em></strong> is a specialized library within the CeTZ package designed to facilitate the creation of plots and charts in Typst documents. It extends CeTZ’s drawing capabilities, enabling users to visualize data effectively. I can create lists easily:</p>
+<section id="how-to-install-2" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-install-2">How to install</h2>
+<p>To incorporate cetz-plot into your Typst project, import the package at the beginning of your .typ file:</p>
+<pre class="t"><code>#import "@preview/cetz-plot:0.1.1"</code></pre>
+<p>Ensure that the CeTZ package is also imported, as cetz-plot builds upon its functionalities.</p>
+</section>
+<section id="usage-2" class="level2">
+<h2 class="anchored" data-anchor-id="usage-2">Usage</h2>
+<pre class="t"><code>plot.plot(size: (2,2), x-tick-step: none, y-tick-step: none, {
+ plot.add(((0,0), (1,1), (2,.5), (4,3)))
+})</code></pre>
+</section>
+<section id="advantages-2" class="level2">
+<h2 class="anchored" data-anchor-id="advantages-2">Advantages</h2>
 <ul>
-<li>One</li>
-<li>Two</li>
+<li><p><strong>Data Plotting:</strong> cetz-plot allows for the plotting of various data types, including mathematical functions and empirical datasets.</p></li>
+<li><p><strong>Customization:</strong> Users can tailor plots by adjusting axes, labels, legends, and styles to meet specific presentation needs.</p></li>
+<li><p><strong>Integration:</strong> Seamlessly integrates with Typst and other CeTZ modules, providing a cohesive experience for document preparation.</p></li>
 </ul>
-<p>I can also create numbered lists:</p>
-<ol type="1">
-<li>One</li>
-<li>Two</li>
-</ol>
-<p>Or, create a table:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Age</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Alice</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Bob</td>
-<td>21</td>
-</tr>
-</tbody>
-</table>
 
 
 </section>
