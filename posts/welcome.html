@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Nipun Batra">
-<meta name="dcterms.date" content="2025-02-14">
-<meta name="description" content="Welcome Post">
+<meta name="author" content="Mateen Sharief, Jahan Zaib and Omer Mohammed">
+<meta name="dcterms.date" content="2025-02-25">
+<meta name="description" content="Simple plotting library">
 
-<title>Welcome – ES114 C018</title>
+<title>Plotting with CtEZ – ES114 C018</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -178,12 +178,12 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome</h1>
+<h1 class="title">Plotting with CtEZ</h1>
 </div>
 
 <div>
   <div class="description">
-    Welcome Post
+    Simple plotting library
   </div>
 </div>
 
@@ -193,14 +193,14 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Nipun Batra </p>
+             <p>Mateen Sharief, Jahan Zaib and Omer Mohammed </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 14, 2025</p>
+      <p class="date">February 25, 2025</p>
     </div>
   </div>
   
@@ -212,12 +212,34 @@ window.Quarto = {
 </header>
 
 
-<section id="welcome" class="level1">
-<h1>Welcome</h1>
-<p><strong>Hello world</strong>, this is my first blog post.</p>
-<p>I can write in markdown</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello World"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>I can also write math equations:</p>
+<section id="typst" class="level1">
+<h1>Typst</h1>
+<p>Typst is a markup-based typesetting system designed to be an easier, faster, and more intuitive alternative to LaTeX. It combines simplicity, real-time compilation, and flexibility, making it ideal for academic papers, reports, presentations, and technical documents.</p>
+<section id="how-to-install" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-install">How to install</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Linux:</span> View Typst on Repology</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">macOS:</span> brew install typst</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">Windows:</span> winget install <span class="at">--id</span> Typst.Typst</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="usage" class="level2">
+<h2 class="anchored" data-anchor-id="usage">Usage</h2>
+<p>Once you have installed Typst, you can use it like this:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creates `file.pdf` in working directory.</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">typst</span> compile file.typ</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Creates PDF file at the desired path.</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">typst</span> compile path/to/source.typ path/to/output.pdf</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><strong>Simpler Syntax</strong>: Compared to LaTeX, Typst uses a more readable and concise syntax.<br>
+</li>
+<li><strong>Real-time Compilation</strong>: Instant preview of changes without the need for complex build processes.<br>
+</li>
+<li><strong>Customizable Templates</strong>: Users can create their own layouts and formatting rules.<br>
+</li>
+<li><strong>Mathematical Typesetting</strong>: Supports equations and mathematical symbols, similar to LaTeX.<br>
+</li>
+<li><strong>Vector Graphics &amp; Diagrams</strong>: Allows integration of charts, graphs, and figures.</li>
+</ul>
 <p><span class="math display">\[
 y = x^2
 \]</span></p>
@@ -252,6 +274,7 @@ y = x^2
 </table>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

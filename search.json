@@ -2,23 +2,30 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Quarto Blog",
+    "title": "Blogs",
     "section": "",
-    "text": "Simple Visualisation\n\n\n\n\n\n\nML\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
+    "text": "Plotting with CtEZ\n\n\n\n\n\nSimple plotting library\n\n\n\n\n\nFeb 25, 2025\n\n\nMateen Sharief, Jahan Zaib and Omer Mohammed\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome.html",
     "href": "posts/welcome.html",
-    "title": "Welcome",
+    "title": "Plotting with CtEZ",
     "section": "",
-    "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
+    "text": "Typst is a markup-based typesetting system designed to be an easier, faster, and more intuitive alternative to LaTeX. It combines simplicity, real-time compilation, and flexibility, making it ideal for academic papers, reports, presentations, and technical documents.\n\n\nLinux: View Typst on Repology\nmacOS: brew install typst\nWindows: winget install --id Typst.Typst\n\n\n\nOnce you have installed Typst, you can use it like this:\n# Creates `file.pdf` in working directory.\ntypst compile file.typ\n\n# Creates PDF file at the desired path.\ntypst compile path/to/source.typ path/to/output.pdf\n\nSimpler Syntax: Compared to LaTeX, Typst uses a more readable and concise syntax.\n\nReal-time Compilation: Instant preview of changes without the need for complex build processes.\n\nCustomizable Templates: Users can create their own layouts and formatting rules.\n\nMathematical Typesetting: Supports equations and mathematical symbols, similar to LaTeX.\n\nVector Graphics & Diagrams: Allows integration of charts, graphs, and figures.\n\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   },
   {
-    "objectID": "posts/visualisation.html",
-    "href": "posts/visualisation.html",
-    "title": "Simple Visualisation",
+    "objectID": "posts/welcome.html#how-to-install",
+    "href": "posts/welcome.html#how-to-install",
+    "title": "Plotting with CtEZ",
     "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n%matplotlib inline\n%config InlineBackend.figure_format = 'retina'\n\n\nx = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)"
+    "text": "Linux: View Typst on Repology\nmacOS: brew install typst\nWindows: winget install --id Typst.Typst"
+  },
+  {
+    "objectID": "posts/welcome.html#usage",
+    "href": "posts/welcome.html#usage",
+    "title": "Plotting with CtEZ",
+    "section": "",
+    "text": "Once you have installed Typst, you can use it like this:\n# Creates `file.pdf` in working directory.\ntypst compile file.typ\n\n# Creates PDF file at the desired path.\ntypst compile path/to/source.typ path/to/output.pdf\n\nSimpler Syntax: Compared to LaTeX, Typst uses a more readable and concise syntax.\n\nReal-time Compilation: Instant preview of changes without the need for complex build processes.\n\nCustomizable Templates: Users can create their own layouts and formatting rules.\n\nMathematical Typesetting: Supports equations and mathematical symbols, similar to LaTeX.\n\nVector Graphics & Diagrams: Allows integration of charts, graphs, and figures.\n\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
   },
   {
     "objectID": "index.html",
