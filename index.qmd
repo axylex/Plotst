@@ -1,7 +1,6 @@
 ---
-title: Typst-CtEZ
+title: Team C018
 ---
 
-# Mateen
-
-hello i am mayank
+## Welcome to our website. We hope you enjoy your stay here. 
+This website was created using Quarto and Github pages. Click on Blogs on the top right corner to read our blog. 

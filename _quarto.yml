@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto Template"
+  title: "ES114 C018"
   navbar:
     right:
-      - href: blog.qmd
+      - href: index.qmd
         text: Home
-      - href: bindex.qmd
+      - href: blog.qmd
         text: Blog
 
 
